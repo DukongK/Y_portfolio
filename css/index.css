@@ -2088,15 +2088,15 @@
     display: flex;
   }
   .main_visual h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 65px;
   }
 
   .main_visual > ul li:nth-child(1) img {
-    width: 50px;
+    width: 40px;
   }
   .main_visual > ul li:nth-child(3) img {
-    width: 50px;
+    width: 40px;
   }
   .main_visual ul h2 {
     -webkit-text-stroke-width: 2px;
@@ -2106,16 +2106,16 @@
 
   .color_yellow_h2 {
     color: #ffe53c;
-    padding-left: 70px;
+    padding-left: 50px;
     font-family: "Abril Fatface", serif;
     font-weight: normal;
   }
   .color_fff_h2 {
     color: #fff;
     font-weight: normal;
-    padding-left: 70px;
+    padding-left: 60px;
     margin-top: 20px;
-    font-size: 55px !important;
+    font-size: 50px !important;
   }
 
   /* ++ main_visual 움직임 ++ */
@@ -2242,7 +2242,7 @@
 
   .banner > h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
     text-align: right;
     margin-right: 20px;
     margin-bottom: -0px;
@@ -2255,7 +2255,7 @@
   }
 
   .banner_bg h2 {
-    font-size: 80px;
+    font-size: 60px;
     line-height: 100px;
     font-family: "Abril Fatface", serif;
     font-weight: normal;
@@ -2437,9 +2437,11 @@
     left: 50%;
     top: -20%;
     transform: translate(-50%, -50%);
+    width: 90%;
+    margin: 0px auto;
   }
   .icon_wrap img {
-    width: 60px;
+    width: 40px;
   }
 
   .profile_txt {
@@ -2532,10 +2534,10 @@
   }
 
   .con2 ul li:first-child img {
-    width: 200px;
+    width: 160px;
   }
   .con2 ul li:nth-child(2) img {
-    width: 150px;
+    width: 130px;
   }
 
   .con2 > ul li:nth-child(3) .circle {
@@ -2550,7 +2552,7 @@
     margin-top: 50px;
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 20px;
     width: 90%;
     margin: 50px auto;
@@ -2915,7 +2917,9 @@
     height: 500px;
     border-radius: 100%;
     position: relative;
-    margin: 0px auto;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
   }
 
   .circle2 {
@@ -2926,7 +2930,7 @@
     border-radius: 100%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 100%;
     transform: translate(-50%, -50%);
   }
 
@@ -2982,7 +2986,7 @@
 
   .left1 {
     position: absolute;
-    left: 15%;
+    left: 5%;
     top: 10%;
     transform: translate(-50%, -50%);
     width: 100px;
@@ -2991,7 +2995,7 @@
 
   .left2 {
     position: absolute;
-    left: 35%;
+    left: 10%;
     top: 35%;
     transform: translate(-50%, -50%);
     width: 70px;
@@ -3052,12 +3056,12 @@
   /* ++ footer 움직임 ++*/
 
   .circle1 {
-    transform: scale(0.1);
+    transform: translate(-50%, -50%) scale(0.1);
     transition: 1s;
     opacity: 0;
   }
   .circle1.on {
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
   .circle2 {
