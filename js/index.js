@@ -22,6 +22,12 @@ $(function () {
     $(".ham_btn2").removeClass("on");
   });
 
+  //   햄버거 클릭 시
+  $(".hambergur").on("click", function () {
+    $(".ham_btn1").toggleClass("active");
+    $(".ham_btn2").toggleClass("active");
+  });
+
   //   상단 이동 버튼
 
   $(".top_move").on("click", function () {
